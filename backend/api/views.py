@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from backend.api.serializer import ApplicationSerializer, InterviewSerializer
+from .serializer import ApplicationSerializer, InterviewSerializer
 from rest_framework import viewsets
 from .models import Application, Interview
 
