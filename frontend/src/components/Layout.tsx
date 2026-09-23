@@ -3,13 +3,13 @@ import { Outlet } from "react-router"
 function Layout() {
   return (
     <div>
-      <aside>
-        CareerOS Navigation
-      </aside>
-
-      <main>
-        <Outlet />
-      </main>
+        <Navbar />
+        <div>
+            <Sidebar />
+            <main>
+                <Outlet />
+            </main>
+        </div>
     </div>
   )
 }
